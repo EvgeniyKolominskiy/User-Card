@@ -24,7 +24,7 @@ body {
 	border: 0;
 	border-radius: 40px 40px 0 0;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .userName > h1 {
@@ -50,4 +50,25 @@ body {
 	line-height: 1.2em;
 	font-size: 15px;
 	margin: 30px 30px 30px 30px;
+}
+
+.numbers {
+	display: inline-block;
+	text-align: center;
+	width: inherit;
+	margin: 0 30px 30px 30px;
+	overflow: hidden;
+}
+
+.numbers .box {
+	display: inline-block;
+}
+
+.box > p {
+	display: block;
+	font-size: 20px;
+}
+
+.box + .box {
+	margin-left: 30px;
 }
