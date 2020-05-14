@@ -1,2 +1,53 @@
 @import url(reset.css);
 
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin-top: 70px;
+	text-align: center;
+	background-color: #6E7888;
+}
+
+.userCard {
+	background-color: #3A3D45;
+	border: 0;
+	border-radius: 40px;
+	width: 350px;
+	height: 600px;
+	margin-left: 40%;
+}
+
+.userName {
+	background-color: #E7EBEE;
+	border: 0;
+	border-radius: 40px 40px 0 0;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.userName > h1 {
+	padding: 30px 30px;
+	color: #3A3D45;
+}
+
+.userContent {
+	color: #E7EBEE;
+}
+
+.profilePicture {
+	height: 130px;
+	width: 130px;
+	border-radius: 100%;
+	object-fit: cover;
+	margin-top: 30px;
+}
+
+.userContent > p {
+	text-align: left;
+	word-spacing: 4px;
+	line-height: 1.2em;
+	font-size: 15px;
+	margin: 30px 30px 30px 30px;
+}
